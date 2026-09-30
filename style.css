@@ -34,3 +34,40 @@ h3{
   margin: 10px;
   padding: 5px;
 }
+
+#m1{
+  border: solid 3px black;
+}
+
+article[id=m2] {
+  color: blue;
+}
+
+article p::before{
+  content: '[영화 소개]';
+  font-weight: 900;
+}
+
+article p::after{
+  content: '[더보기]';
+  font-style: italic;
+}
+
+a{
+  text-decoration: none;
+  color: darked;
+}
+
+a:visited{
+  color: orange;
+}
+
+a:hover{
+  background-color: blue;
+  color: white;
+}
+
+a:active{
+  background-color: darkred;
+  color: white;
+}
