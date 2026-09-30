@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Single+Day&display=swap');
+
+
+
 body{
   font-size: 14px;
 }
@@ -8,6 +12,8 @@ header, main, footer{
   border: solid 5px #cccccc;
 }
 h1{
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: normal;
   /*font-size: 5em;*/
   color: green;
   background-color: lightpink;
@@ -19,7 +25,9 @@ h1{
 }
 
 h3{
+  font-family: "Do Hyeon", sans-serif;
   color: blue;
+  font-variant: small-caps;
 }
 
 h3{
@@ -53,6 +61,18 @@ article p::after{
   font-style: italic;
 }
 
+article p{
+  font-family: "Single Day", sans-serif;
+  font-size: 17px;
+  background-color: darkgray;
+  padding: 15px 5px 10px 5px;
+  margin-bottom: 20px;
+}
+
+article:nth-child(2){
+  background-color: lightblue;
+}
+
 a{
   text-decoration: none;
   color: darked;
@@ -71,3 +91,4 @@ a:active{
   background-color: darkred;
   color: white;
 }
+
